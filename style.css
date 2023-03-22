@@ -3,7 +3,7 @@
 :root{
 	--main-background: #0b0c0f;
 	--main-fonts-color: #fff;
-	--main-decor-color:#00a9e2;
+	--main-decor-color:#87e000;
     --main-header-background:#21252e;
 	--main-font-family: 'Poppins', sans-serif;
 }
@@ -93,7 +93,7 @@ a.nav-link{
 }
 
 #home .filter{
-	background: url('https://images.unsplash.com/photo-1544099858-75feeb57f01b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat;
+	background: url('https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?cs=srgb&dl=pexels-kevin-ku-577585.jpg&fm=jpg') no-repeat;
 	background-size: cover;
 	background-position:center;
     position: absolute;
@@ -272,7 +272,6 @@ footer {
 	font-size: 1rem;
 	letter-spacing: 1px;
     text-decoration: none;
-	font-family: var(--main-font-family);
 }
 
 .copyright a:hover{
@@ -410,3 +409,131 @@ hr {
 .nav-active{
 	transform:translatex(0%);
 }
+.card {
+	transition: transform .2s;
+}
+.card:hover {
+	transform: scale(1.5);
+	cursor: pointer;
+	
+}
+.card:onclick {
+	transform: scale(1.5);
+	touch-action: manipulation;
+}
+
+.card1{
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	width: 200px;
+	height:250px;
+	border-radius:12px;
+    background:var(--main-decor-color);
+}
+.card2{
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	width: 200px;
+	height:250px;
+	border-radius:12px;
+    background:var(--main-decor-color);
+}
+.card3{
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	width: 200px;
+	height:250px;
+	border-radius:12px;
+    background:var(--main-decor-color);
+}
+.card1 a{
+	text-decoration: none;
+}
+
+.card1 .work-content:hover{
+    color:#202020;
+}
+
+.card1:hover{
+	box-shadow: 0 0 1.5rem gray;
+}
+.card2 a{
+	text-decoration: none;
+}
+
+.card2 .work-content:hover{
+    color:#202020;
+}
+
+.card2:hover{
+	box-shadow: 0 0 1.5rem gray;
+}
+.card3 a{
+	text-decoration: none;
+}
+
+.card3 .work-content:hover{
+    color:#202020;
+}
+
+.card3:hover{
+	box-shadow: 0 0 1.5rem gray;
+}
+.card1 img{
+	width: 100%;
+	height:70%;
+	border-radius:10px 10px 0px 0px;
+}
+.card2 img{
+	width: 100%;
+	height:70%;
+	border-radius:10px 10px 0px 0px;
+}
+.card3 img{
+	width: 100%;
+	height:70%;
+	border-radius:10px 10px 0px 0px;
+}
+.card1 {
+	transition: transform .2s;
+}
+.card1:hover {
+	transform: scale(1.5);
+	cursor: pointer;
+	
+}
+.card1:onclick {
+	transform: scale(1.5);
+	touch-action: manipulation;
+}
+.card2 {
+	transition: transform .2s;
+}
+.card2:hover {
+	transform: scale(1.5);
+	cursor: pointer;
+	
+}
+.card2:onclick {
+	transform: scale(1.5);
+	touch-action: manipulation;
+}
+.card3 {
+	transition: transform .2s;
+}
+.card3:hover {
+	transform: scale(1.5);
+	cursor: pointer;
+	
+}
+.card3:onclick {
+	transform: scale(1.5);
+	touch-action: manipulation;
+}
+.card .card1 .card3 .card3:active {
+	background-color: #0062ff;
+}
+
