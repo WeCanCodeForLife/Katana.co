@@ -2,8 +2,8 @@
 
 :root{
 	--main-background: #0b0c0f;
-	--main-fonts-color: #fff;
-	--main-decor-color:#87e000;
+	--main-fonts-color: #d6d6d6;
+	--main-decor-color:#e00000;
     --main-header-background:#21252e;
 	--main-font-family: 'Poppins', sans-serif;
 }
@@ -51,6 +51,7 @@ header:hover{
 	padding-top: 5px;
 	height: 50px;
 	cursor: pointer;
+	border-radius: 25px;
 }
 
 .nav-bar{
@@ -93,7 +94,7 @@ a.nav-link{
 }
 
 #home .filter{
-	background: url('https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?cs=srgb&dl=pexels-kevin-ku-577585.jpg&fm=jpg') no-repeat;
+	background: url('https://thumbs.dreamstime.com/b/katana-sword-black-background-reflective-table-dark-lighting-113007939.jpg') no-repeat;
 	background-size: cover;
 	background-position:center;
     position: absolute;
